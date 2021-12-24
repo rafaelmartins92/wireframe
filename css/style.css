@@ -1,3 +1,4 @@
+/* HEADER */
 header {
   width: 100%;
   height: 8.8rem;
@@ -31,4 +32,46 @@ header nav ul li:not(:first-child) {
 
 header nav .btn-primary {
   padding: 0.9rem 3.4rem;
+}
+
+/* SECTION HERO */
+.s-hero {
+  padding: 7.2rem 0rem;
+}
+
+.s-hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-hero .text {
+  width: 100%;
+  max-width: 64rem;
+}
+
+.s-hero .text h1 {
+  margin-bottom: 2rem;
+}
+
+.s-hero .text p {
+  margin-bottom: 5.6rem;
+  max-width: 48.8rem;
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--gray-colors-300);
+}
+
+.s-hero .text .btn-primary {
+  padding: 1.7rem 3.7rem;
+}
+
+.s-hero .image {
+  width: 100%;
+  max-width: 48.8rem;
+  height: 49.6rem;
+  background-color: var(--gray-colors-800);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

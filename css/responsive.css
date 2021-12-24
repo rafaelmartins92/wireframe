@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+  .s-hero .text {
+    max-width: 49%;
+  }
 }
 
 @media (max-width: 1030px) {
@@ -9,6 +12,26 @@
   header .menu-mobile {
     display: block;
   }
+
+  .s-hero .container {
+    flex-direction: column;
+  }
+
+  .s-hero .text {
+    max-width: 100%;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s-hero .text h1 {
+    text-align: center;
+  }
+
+  .s-hero .text p {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -18,7 +41,31 @@
 }
 
 @media (max-width: 480px) {
+  html {
+    font-size: 55%;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+  }
+
   header .logo {
     max-width: 130px;
+  }
+
+  .s-hero {
+    padding: 4rem 0rem;
+  }
+
+  .s-hero .text p {
+    margin-bottom: 3rem;
+  }
+
+  .s-hero .image {
+    height: 30rem;
+  }
+
+  .s-hero .image img {
+    max-width: 10rem;
   }
 }
