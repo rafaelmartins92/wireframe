@@ -75,3 +75,74 @@ header nav .btn-primary {
   justify-content: center;
   align-items: center;
 }
+
+/* SECTION CARD FEATURED */
+.s-card-featured {
+  background-color: var(--gray-colors-100);
+  padding: 10.4rem 0 12rem;
+}
+
+.s-card-featured .main-area {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding-bottom: 12.5rem;
+}
+
+.s-card-featured .title {
+  display: flex;
+  flex-direction: column;
+}
+.s-card-featured .title p {
+  margin-top: 0.8rem;
+}
+
+.s-card-featured .title.center {
+  align-items: center;
+}
+
+.s-card-featured p {
+  color: var(--white-colors-text);
+}
+
+.s-card-featured .all-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.8rem;
+}
+
+.s-card-featured .all-cards .card {
+  background-color: rgba(28, 29, 31, 0.5);
+  width: 100%;
+  max-width: 38.4rem;
+  height: 38.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6.4rem;
+}
+
+.s-card-featured .all-cards .card.white {
+  background-color: var(--white);
+}
+
+.s-card-featured .all-cards .card.white h3 {
+  color: var(--gray-colors-100);
+}
+
+.s-card-featured .all-cards .card.white p {
+  color: var(--gray-colors-300);
+}
+
+.s-card-featured .all-cards .card .info {
+  margin-top: 4rem;
+  max-width: 28.8rem;
+}
+
+.s-card-featured .all-cards .card .info h3 {
+  text-align: center;
+}
+
+.s-card-featured .all-cards .card .info p {
+  text-align: center;
+  margin-top: 0.8rem;
+  line-height: 150%;
+}

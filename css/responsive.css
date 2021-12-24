@@ -2,6 +2,10 @@
   .s-hero .text {
     max-width: 49%;
   }
+
+  .s-card-featured .all-cards .card {
+    width: 32%;
+  }
 }
 
 @media (max-width: 1030px) {
@@ -31,6 +35,27 @@
 
   .s-hero .text p {
     text-align: center;
+  }
+
+  .s-card-featured .all-cards {
+    flex-direction: column;
+  }
+
+  .s-card-featured .all-cards .card {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .s-card-featured .all-cards .card:last-child {
+    margin-bottom: 0;
+  }
+
+  .s-card-featured .all-cards .card .info {
+    max-width: 100%;
+    margin-top: 2rem;
   }
 }
 
@@ -67,5 +92,18 @@
 
   .s-hero .image img {
     max-width: 10rem;
+  }
+
+  .s-card-featured {
+    padding: 4rem 0;
+  }
+
+  .s-card-featured .title p {
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .s-card-featured .main-area {
+    padding-bottom: 4rem;
   }
 }
