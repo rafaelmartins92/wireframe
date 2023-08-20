@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src="img/logo.svg" style="height: 80px" />
+    <img alt="Logo" src="img/logo-orafadev.svg" style="height: 80px" />
     <br>
 </h1>
 
