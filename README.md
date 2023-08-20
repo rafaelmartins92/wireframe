@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src="img/logo.png" />
+    <img alt="Logo" src="img/logo.svg" style="height: 80px" />
     <br>
 </h1>
 
@@ -18,11 +18,9 @@
 </p>
 
 <h4 align="center">
-  <p>Code Boost - Project Wireframe</p>
+  <p>Project Wireframe</p>
 
-  <p>This was a study project done in Code Boost.</p>
-
-  <p>This project was aimed at improving my skill in HTML and CSS.</p>
+  <p>his is a study project to improve my skills in HTML and CSS.</p>
 </h4>
 
 <p align="center">
@@ -33,7 +31,7 @@
 </p>
 
 <p align="center">
-  <img alt="Scene" src="img/portfolio-scene---wireframe@2x.png">
+  <img alt="Scene" src="img/portfolio-scene-wireframe@2x.png">
 </p>
 
 ## :rocket: Technologies
